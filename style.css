@@ -850,7 +850,7 @@ footer .social a:hover{
 }
 
 @media(max-width: 991px){
-    
+
     .home{
         background-image: url("images/fundo/fundo-mobile 768x568.jpg");
     }
@@ -901,7 +901,6 @@ footer .social a:hover{
         display: block;
     }
     
-
      header .navbar ul li{
         display: block;
         margin-left: 0;
@@ -976,12 +975,6 @@ footer .social a:hover{
         flex: 0 0 100%;
         max-width: 100%;
     }
-
-    .about-me .about-content .text .info .data p {
-        flex: 0 0 100%;
-        font-size: 10px;
-    }
-
 }
 
 @media(max-width: 375px){
@@ -1001,6 +994,13 @@ footer .social a:hover{
     .about-me .about-content .text .info .data label {
         font-size: 12px;
     }
+
+    
+    .about-me .about-content .text .info .data p {
+        flex: 0 0 100%;
+        font-size: 10px;
+    }
+
 
 
 }
