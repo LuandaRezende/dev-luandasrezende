@@ -117,7 +117,6 @@ header .navbar ul li a.active::before{
 
 .home .full-screen{
     min-height: 100vh;
-
 }
 
 .home .home-content{
@@ -898,6 +897,7 @@ footer .social a:hover{
         display: block;
     }
     
+
      header .navbar ul li{
         display: block;
         margin-left: 0;
@@ -981,7 +981,7 @@ footer .social a:hover{
 
 @media(max-width: 375px){
     header{
-        width: 90%;
+        width: 100%;
     }
 
     .about-me .about-content .text p {
