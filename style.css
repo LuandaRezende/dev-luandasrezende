@@ -898,7 +898,6 @@ footer .social a:hover{
         display: block;
     }
     
-
      header .navbar ul li{
         display: block;
         margin-left: 0;
@@ -984,4 +983,8 @@ footer .social a:hover{
     header{
         width: 90%;
     }
+
+    .about-me .about-content .text p {
+        font-size: 12px;
+        font-weight: 400;
 }
