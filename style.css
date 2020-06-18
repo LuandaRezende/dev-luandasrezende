@@ -96,7 +96,6 @@ header.fixed .navbar ul li a::before{
     background-color: #DDA0DD;
 }
 
-
 header .navbar ul li a:hover::before{
     width: 100%;
     left: 0;
@@ -109,10 +108,10 @@ header .navbar ul li a.active::before{
 
 .home{
     min-height: 100vh;
-    background-image: url("images/fundo/fundo-preto7.jpg");
+    background-image: url("images/fundo/fundo-desktop.jpg");
     background-size: cover;
     background-position: center;
-    padding: 15px;
+    padding: 15px; 
 }
 
 .home .full-screen{
@@ -851,6 +850,11 @@ footer .social a:hover{
 }
 
 @media(max-width: 991px){
+    
+    .home{
+        background-image: url("images/fundo/fundo-mobile 768x568.jpg");
+    }
+
     .home .home-content .block h1{
         font-size: 50px;
     }
@@ -973,8 +977,9 @@ footer .social a:hover{
         max-width: 100%;
     }
 
-    .about-me .about-content .text .info .data p{
+    .about-me .about-content .text .info .data p {
         flex: 0 0 100%;
+        font-size: 10px;
     }
 
 }
@@ -984,7 +989,18 @@ footer .social a:hover{
         width: 100%;
     }
 
-    .about-me .about-content .text p {
+    .about-me .about-content .text .info {
         font-size: 10px;
+    }
+
+    .about-me .about-content .text p {
+        font-size: 15px;
         font-weight: 400;
+    }
+
+    .about-me .about-content .text .info .data label {
+        font-size: 12px;
+    }
+
+
 }
