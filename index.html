@@ -5,6 +5,7 @@
   <title>Luanda Rezende | Portifólio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" href="images/icon.png" />
 
 <body>
@@ -66,11 +67,11 @@
       <div class="row">
         <div class="about-content">
           <div class="row">
-            <div class="img">
+            <div class="img" data-aos="fade-up-right">
               <img src="images/foto3.jpg">
             </div>
 
-            <div class="text">
+            <div class="text" data-aos="fade-up-left">
               <h4>Eu sou Luanda Rezende</h4>
               <h6>"Acredito que apenas a <span>tecnologia</span> e o <span>conhecimento</span> são capazes de mudar o
                 mundo."</h6>
@@ -211,7 +212,7 @@
 
   <!-- inicio Portifólio -->
   <section class="portifolio" id="portifolio">
-    <div class="container">
+    <div class="container" data-aos="zoom-in">
       <div class="row">
         <div class="section-title text-center">
           <h1>Últimos projetos</h1>
@@ -220,7 +221,7 @@
       <div class="row">
         <div class="filter-buttons">
           <ul id="filter-btns">
-            <li class="active" data-target="all">All</li>
+            <li class="active" data-aos="flip-left" data-target="all">All</li>
             <li data-target="html/css">Html/Css</li>
             <li data-target="java">Java</li>
             <li data-target="react">React</li>
@@ -230,9 +231,9 @@
       </div>
       <div class="row">
         <div class="portifolio-gallery">
-          <div class="item" data-id="html/css">
+          <div class="item" data-aos="flip-left" data-id="html/css">
             <div class="inner">
-              <img src="images/portfolio/computer1test.jpeg">
+              <img src="images/portfolio/greenbuilding.jpeg">
               <div class="overlay">
                 <span class="fa fa-plus"></span>
                 <h4>Green Building</h4>
@@ -241,20 +242,9 @@
             </div>
           </div>
 
-          <div class="item" data-id="java">
+          <div class="item" data-aos="flip-left" data-id="angular">
             <div class="inner">
-              <img src="images/portfolio/computer1test.jpeg">
-              <div class="overlay">
-                <span class="fa fa-plus"></span>
-                <h4>Construção Verde</h4>
-                <small><a target="_blank" style="color:#ffffff; text-decoration: none;" href="https://github.com/LuandaRezende/construcao-verde" style="color: #ffffff">Repositorio</a></small>
-              </div>
-            </div>
-          </div>
-
-          <div class="item" data-id="angular">
-            <div class="inner">
-              <img src="images/portfolio/computer1test.jpeg">
+              <img src="images/portfolio/crudangular.jpeg">
               <div class="overlay">
                 <span class="fa fa-plus"></span>
                 <h4>CRUD Produtos</h4>
@@ -263,7 +253,18 @@
             </div>
           </div>
 
-          <div class="item" data-id="java">
+          <div class="item" data-aos="flip-left" data-id="java">
+            <div class="inner">
+              <img src="images/portfolio/construcaoverde.jpeg">
+              <div class="overlay">
+                <span class="fa fa-plus"></span>
+                <h4>Construção Verde</h4>
+                <small><a target="_blank" style="color:#ffffff; text-decoration: none;" href="https://github.com/LuandaRezende/construcao-verde" style="color: #ffffff">Repositorio</a></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="item" data-aos="flip-left" data-id="java">
             <div class="inner">
               <img src="images/portfolio/computerConst.jpeg">
               <div class="overlay">
@@ -273,7 +274,7 @@
             </div>
           </div>
 
-          <div class="item" data-id="html/css">
+          <div class="item" data-aos="flip-left" data-id="html/css">
             <div class="inner">
               <img src="images/portfolio/computerConst.jpeg">
               <div class="overlay">
@@ -283,7 +284,7 @@
             </div>
           </div>
 
-          <div class="item" data-id="java">
+          <div class="item" data-aos="flip-left" data-id="java">
             <div class="inner">
               <img src="images/portfolio/computerConst.jpeg">
               <div class="overlay">
@@ -383,7 +384,10 @@
 </section>
 <!-- fim copyright -->
 
-  <script src="script.js">
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 
 
